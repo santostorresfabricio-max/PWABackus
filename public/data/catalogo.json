@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cristal 620 ml",
+    "categoria": "Cerveza",
+    "precio": 3.4,
+    "stock": 120,
+    "imagen": "/images/cristal.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Pilsen Callao 620 ml",
+    "categoria": "Cerveza",
+    "precio": 3.2,
+    "stock": 95,
+    "imagen": "/images/pilsen.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Cusqueña 620 ml",
+    "categoria": "Cerveza",
+    "precio": 4.1,
+    "stock": 70,
+    "imagen": "/images/cusqueña.jpg"
+  }
+]

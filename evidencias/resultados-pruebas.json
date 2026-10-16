@@ -1,0 +1,73 @@
+{
+  "fecha": "2026-10-16T13:51:59.315Z",
+  "results": [
+    {
+      "prueba": "Service Worker activo y estrategias originales conservadas",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Diseño: fotografías pendientes sin imágenes falsas ni peticiones rotas",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "BV-03: cliente y pedido vacío se rechazan sin persistir",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "BV-01 BV-02: búsqueda, filtros combinados, sin resultados y limpieza",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "BV-03 BV-04: cantidades inválidas rechazadas; 2×3.40 + 3×3.20 = 16.40; borrador recuperado",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "BV-05 BV-06: persistencia transaccional previa a éxito, snapshot completo y sin duplicados por doble clic",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "BV-05: historial y detalle recuperados tras recargar",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Eliminación cancelada conserva el registro",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Exportación JSON funcional",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "P6: recarga offline y pedido persistido con origen OFFLINE y estado PENDIENTE",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "BV-06: recuperar conexión no simula sincronización",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "P7: lectura real de IndexedDB y Cache Storage",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Diseño móvil: catálogo e historial sin desbordamiento de página",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Eliminación confirmada actualiza historial e IndexedDB",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "BV-07: transacción abortada no confirma éxito y conserva formulario",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "Migración de borradores localStorage a IndexedDB sin duplicarlos ni inventar origen",
+      "resultado": "PASS"
+    },
+    {
+      "prueba": "PWA instalable sin errores de criterios; sin errores JavaScript",
+      "resultado": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "capturado": "2026-10-16T13:51:57.459Z",
+  "conectividad": "ONLINE",
+  "worker": "http://localhost:8080/ngsw-worker.js",
+  "estado": "activated",
+  "controlaPagina": true,
+  "caches": [
+    {
+      "cache": "ngsw:/:1:data:catalogo-backus:cache",
+      "url": "http://localhost:8080/data/catalogo.json",
+      "datos": [
+        {
+          "id": 1,
+          "nombre": "Cristal 620 ml",
+          "categoria": "Cerveza",
+          "precio": 3.4,
+          "stock": 120
+        },
+        {
+          "id": 2,
+          "nombre": "Pilsen Callao 620 ml",
+          "categoria": "Cerveza",
+          "precio": 3.2,
+          "stock": 95
+        },
+        {
+          "id": 3,
+          "nombre": "Cusqueña 620 ml",
+          "categoria": "Cerveza",
+          "precio": 4.1,
+          "stock": 70
+        }
+      ]
+    },
+    {
+      "cache": "ngsw:/:1:data:precios-backus:cache",
+      "url": "http://localhost:8080/data/precios.json",
+      "datos": [
+        {
+          "productoId": 1,
+          "precio": 3.4,
+          "stock": 120,
+          "actualizado": "2026-10-01T09:00:00"
+        },
+        {
+          "productoId": 2,
+          "precio": 3.2,
+          "stock": 95,
+          "actualizado": "2026-10-01T09:00:00"
+        },
+        {
+          "productoId": 3,
+          "precio": 4.1,
+          "stock": 70,
+          "actualizado": "2026-10-01T09:00:00"
+        }
+      ]
+    }
+  ],
+  "pedidos": [
+    {
+      "id": "7b009aa8-bc7a-4f7f-90d2-ee4f0b041d6c",
+      "cliente": "Bodega de demostración",
+      "fecha": "2026-10-16T13:51:56.052Z",
+      "lineas": [
+        {
+          "productoId": 1,
+          "producto": "Cristal 620 ml",
+          "precioUnitario": 3.4,
+          "cantidad": 2,
+          "subtotal": 6.8
+        },
+        {
+          "productoId": 2,
+          "producto": "Pilsen Callao 620 ml",
+          "precioUnitario": 3.2,
+          "cantidad": 3,
+          "subtotal": 9.6
+        }
+      ],
+      "total": 16.4,
+      "estado": "PENDIENTE",
+      "origen": "ONLINE"
+    },
+    {
+      "id": "d9d40a35-2167-4c7c-89de-2a7fa2d50ea8",
+      "cliente": "Cliente offline de prueba",
+      "fecha": "2026-10-16T13:51:57.245Z",
+      "lineas": [
+        {
+          "productoId": 3,
+          "producto": "Cusqueña 620 ml",
+          "precioUnitario": 4.1,
+          "cantidad": 2,
+          "subtotal": 8.2
+        }
+      ],
+      "total": 8.2,
+      "estado": "PENDIENTE",
+      "origen": "OFFLINE"
+    }
+  ]
+}
